@@ -1,0 +1,18 @@
+README
+
+These are a look into my Flask learning process.
+
+Remember to run these on ACTIVATED virtual environments, or else they just won't run.
+
+hello.py is a Hello World-type application. It comes with the added feature of a second, dynamic route that greets you by name when navigating to localhost:5000/user/YOUR_NAME_HERE.
+
+useragent.py just tells your the browser you are currently on, it is an exercise into contexts.
+
+returncookie.py is an exercise into responses and return objects, and is pretty self-explanatory.
+
+redirect.py is another exercise into responses and return objects, and redirects you to my 'About' page (:
+
+abort.py is yet another of these, but it is used for error handling. It is meant to return 404 if the id given in the URL isn't an actual user
+
+hellotemplates.py is an exercise into the use of templates. Try adding /index to the URL and /user/your_name to test these 2 templates out properly out properly.
+
